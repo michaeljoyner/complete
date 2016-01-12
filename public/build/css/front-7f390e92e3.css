@@ -1091,17 +1091,15 @@ footer.main-footer {
       width: 50%;
       top: -30px; } }
 
-@media only screen and (min-width: 414px) and (max-width: 720px) {
-  .resources .half-page.resources-left {
-    width: 65%;
-    padding: 10px; } }
-
-@media only screen and (min-width: 721px) and (max-width: 969px) {
-  .resources .half-page.resources-left {
-    padding: 10px; } }
-
-.resources .half-page.resources-right {
-  overflow: hidden; }
+.resources {
+  overflow-x: hidden; }
+  @media only screen and (min-width: 414px) and (max-width: 720px) {
+    .resources .half-page.resources-left {
+      width: 65%;
+      padding: 10px; } }
+  @media only screen and (min-width: 721px) and (max-width: 969px) {
+    .resources .half-page.resources-left {
+      padding: 10px; } }
   @media only screen and (min-width: 414px) and (max-width: 720px) {
     .resources .half-page.resources-right {
       width: 34%; } }

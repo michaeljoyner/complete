@@ -52,13 +52,13 @@
 }
 
 .resources {
+  overflow-x: hidden;
   .half-page.resources-left {
     @include respond-to(smalltablet) {width: 65%; padding: 10px;}
     @include respond-to(largetablet) {padding: 10px;}
   }
 
   .half-page.resources-right {
-    overflow: hidden;
     @include respond-to(smalltablet) {width: 34%;}
     @include respond-to(largetablet) {padding-top: 50px;}
   }
