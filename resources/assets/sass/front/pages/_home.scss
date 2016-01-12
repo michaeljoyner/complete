@@ -58,6 +58,7 @@
   }
 
   .half-page.resources-right {
+    overflow: hidden;
     @include respond-to(smalltablet) {width: 34%;}
     @include respond-to(largetablet) {padding-top: 50px;}
   }

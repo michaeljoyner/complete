@@ -1100,13 +1100,14 @@ footer.main-footer {
   .resources .half-page.resources-left {
     padding: 10px; } }
 
-@media only screen and (min-width: 414px) and (max-width: 720px) {
-  .resources .half-page.resources-right {
-    width: 34%; } }
-
-@media only screen and (min-width: 721px) and (max-width: 969px) {
-  .resources .half-page.resources-right {
-    padding-top: 50px; } }
+.resources .half-page.resources-right {
+  overflow: hidden; }
+  @media only screen and (min-width: 414px) and (max-width: 720px) {
+    .resources .half-page.resources-right {
+      width: 34%; } }
+  @media only screen and (min-width: 721px) and (max-width: 969px) {
+    .resources .half-page.resources-right {
+      padding-top: 50px; } }
 
 @media only screen and (min-width: 414px) and (max-width: 720px) {
   .about-me .half-page {

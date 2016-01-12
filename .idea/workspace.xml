@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_hpservies.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/partials/_hpservies.scss">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72852236">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.70561284">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -82,12 +82,12 @@
         <option value="$PROJECT_DIR$/resources/assets/sass/front/partials/_general.scss" />
         <option value="$PROJECT_DIR$/resources/views/front/blog/post.blade.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/ImportArticles.php" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/front/partials/_mainnav.scss" />
         <option value="$PROJECT_DIR$/public/images/articles/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/front/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/front/partials/_homehero.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/front/partials/_hpservies.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss" />
       </list>
     </option>
   </component>
@@ -1038,27 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2565865">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <marker date="1452571374000" expanded="true" signature="12:469" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="330:467" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="484:542" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="557:801" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="823:1176" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="1189:1491" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="1219:1344" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="1375:1489" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="1514:1598" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="1624:2502" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="2194:2327" placeholder="{...}" />
-            <marker date="1452571374000" expanded="true" signature="2341:2500" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/partials/_mainnav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5555556">
@@ -1322,6 +1301,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72852236">
           <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding>
+            <marker date="1452577075000" expanded="true" signature="10:2584" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="30:355" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="372:1356" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="771:1074" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="980:1068" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="1095:1351" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="1380:1954" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="1985:2289" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="2308:2582" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="2624:2676" placeholder="{...}" />
+            <marker date="1452577075000" expanded="true" signature="2715:2767" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70561284">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding />
         </state>
       </provider>
