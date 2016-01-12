@@ -1,0 +1,79 @@
+.hero {
+  background: $front_green; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, $front_green , $front_soft_green); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, $front_green , $front_soft_green); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 400px;
+  width: 100%;
+  padding: 50px;
+  padding-top: 0;
+
+  @include respond-to(phone) {padding: 0;}
+  @include respond-to(smalltablet) {padding: 0; padding-bottom: 50px;}
+
+  .hero-title {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    padding: 0;
+    color: #fff;
+    text-align: right;
+    margin-bottom: 10px;
+
+    @include respond-to(phone) {font-size: 50px; padding-right: 10px; padding-top: 50px;}
+    @include respond-to(smalltablet) {padding-right: 50px; padding-left: 50px;}
+    @include respond-to(largetablet) {margin-top: 0; padding-top: 80px;}
+  }
+
+  .hero-tagline {
+    font-size: 200%;
+    color: #fff;
+    font-family: $sans;
+    text-align: right;
+    margin-top: 5px;
+
+    @include respond-to(phone) {padding-right: 10px; font-size: 180%;}
+    @include respond-to(smalltablet) {padding-right: 50px; padding-left: 50px;}
+  }
+}
+
+#heart {
+  position: absolute;
+  width: 300px;
+  height: 270px;
+  top: 100px;
+  left: 100px;
+
+  @include respond-to(phone) {display: none;}
+  @include respond-to(smalltablet) {display: none;}
+  @include respond-to(largetablet) {display: none;}
+}
+#heart:hover {
+  animation: heartBeat 2s 0s infinite;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 150px;
+  top: 0;
+  width: 150px;
+  height: 240px;
+  background: $front_green;
+  border-radius: 150px 150px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin :100% 100%;
+}
+
+@keyframes heartBeat {
+O {transform: scale(1);}
+10% {transform: scale(1.1);}
+20% {transform: scale(1);}
+70% {transform: scale(1);}
+20% {transform: scale(1.1);}
+20% {transform: scale(1);}
+}

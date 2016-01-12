@@ -1,0 +1,59 @@
+.blog-posts-index {
+  padding: 15px;
+}
+
+.blog-post {
+  position: relative;
+  border-bottom: 2px solid #333;
+  min-height: 230px;
+
+  .blog-post-info {
+
+
+    .post-title {
+      font-size: 24px;
+    }
+  }
+
+  .blog-post-actions {
+    position: relative;
+    margin-top: 40px;
+
+    .post-date {
+      text-align: right;
+
+      span {
+        font-size: 120%;
+        color: darken($primary_green, 20%);
+      }
+
+      i {
+        color: darken($primary_green, 20%);
+        vertical-align: text-bottom;
+        margin-right: 10px;
+      }
+    }
+
+    .published-switch {
+      margin: 20px 0;
+      text-align: right;
+    }
+    
+    .post-actions {
+      text-align: right;
+      padding-right: 20px;
+    }
+  }
+
+
+}
+
+.blog-index-pager {
+  .pagination {
+    li.active {
+      background-color: $primary_green;
+      color: $white;
+      border-radius: 50%;
+    }
+  }
+}

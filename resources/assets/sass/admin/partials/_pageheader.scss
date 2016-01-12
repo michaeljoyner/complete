@@ -1,0 +1,18 @@
+.cl-page-header {
+  margin-bottom: 60px;
+  background: $soft_green;
+  .page-title {
+    float: left;
+    color: white;
+    font-weight: 300;
+  }
+
+  .cl-page-action {
+    float: right;
+    top: 70px;
+  }
+
+  hr {
+    clear: both;
+  }
+}

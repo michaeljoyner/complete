@@ -1,0 +1,1 @@
+window.AjaxContactForm = require('./contactform.js');

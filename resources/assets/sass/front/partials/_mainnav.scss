@@ -1,0 +1,74 @@
+.main-nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  @include respond-to(phone) {background: $white;}
+  @include respond-to(smalltablet) {background: $white;}
+
+  label {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: none;
+
+    @include respond-to(phone) {display: inline-block;}
+    @include respond-to(smalltablet) {display: inline-block;}
+
+    i {
+      color: $front_green;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: right;
+    color: $white;
+    padding: 0;
+    margin: 0;
+
+
+    @include respond-to(phone) {clear: both; height: 0; min-height: 0; max-height: 0; transition: .5s; overflow: hidden;
+      text-align: left;}
+    @include respond-to(smalltablet) {clear: both; height: 0; min-height: 0; max-height: 0; transition: .5s; overflow: hidden;
+      text-align: left;}
+    @include respond-to(largetablet) {float: right; clear: none;}
+
+    li {
+      display: inline-block;
+      padding: 10px;
+      margin: 0 20px;
+      text-transform: capitalize;
+      font-family: $sans;
+      font-weight: 300;
+      cursor: pointer;
+
+      @include respond-to(phone) {display: block; color: $front_green;}
+      @include respond-to(smalltablet) {display: block; color: $front_green;}
+    }
+  }
+
+  .nav-branding {
+    float: left;
+    padding-left: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: $front_green;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 24px;
+
+    @include respond-to(phone) {font-size: 18px; padding-left: 15px;}
+    @include respond-to(smalltablet) {font-size: 18px; padding-left: 15px;}
+    @include respond-to(largetablet) {font-size: 18px; padding-left: 15px;}
+  }
+}
+
+#mobile-trigger {
+  display: none;
+}
+
+#mobile-trigger:checked + ul {
+  height: auto;
+  max-height: 130px;
+  min-height: 130px;
+}

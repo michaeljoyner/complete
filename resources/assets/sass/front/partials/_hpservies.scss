@@ -1,0 +1,82 @@
+.services {
+
+  .services-left {
+    padding: 0 50px 50px 0;
+    -webkit-perspective: 1000px;
+    position: relative;
+
+    @include respond-to(phone) {-webkit-perspective: 0px; padding: 10px;}
+    @include respond-to(smalltablet) {-webkit-perspective: 0px; padding: 10px;}
+    @include respond-to(largetablet) {-webkit-perspective: 0px; padding: 10px;}
+  }
+  .service-card {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 1px;
+    border: 2px solid $front_green;
+    vertical-align: top;
+
+    @include respond-to(phone) {width: 100%; height: auto; border: none;}
+    @include respond-to(smalltablet) {height: auto; border: none; border-bottom: 2px solid $front_soft_green; margin-bottom: 10px; padding-bottom: 10px;}
+
+    .service-icon-holder {
+      text-align: center;
+      color: $front_green;
+
+      @include respond-to(phone) {display: inline-block; margin: 5px; vertical-align: sub;}
+      @include respond-to(smalltablet) {margin: 0;}
+
+      i {
+        font-size: 38px;
+        @include respond-to(phone) {font-size: 20px;}
+      }
+    }
+
+    .service-title {
+      font-family: $sans;
+      color: $dark_text;
+      text-transform: uppercase;
+      text-align: center;
+
+      @include respond-to(phone) {display: inline-block; font-size: 16px; margin: 0;}
+      @include respond-to(smalltablet) {margin: 0;}
+    }
+
+  }
+  .service-card-holder {
+    transition: .7s;
+    transform: rotateX(45deg) rotateY(27deg) rotateZ(-53deg) translateZ(-277px);
+    transform-origin: 22% -10%;
+    position: absolute;
+    box-shadow: -14px 14px 14px $soft_grey;
+
+    @include respond-to(phone) {transform: none; position: relative; box-shadow: none;}
+    @include respond-to(smalltablet) {transform: none; position: relative; box-shadow: none;}
+    @include respond-to(largetablet) {transform: none; position: relative; box-shadow: none;}
+  }
+
+  .service-card-holder:hover {
+    transform: rotateX(0) rotateY(0) rotateZ(0) translateX(-100px) translateY(50px);
+    @include respond-to(phone) {transform: none;}
+    @include respond-to(smalltablet) {transform: none;}
+    @include respond-to(largetablet) {transform: none;}
+  }
+  .services-right {
+    padding: 50px 0 50px 50px;
+    font-family: $sans;
+    font-size: 120%;
+    color: $dark_text;
+
+    @include respond-to(phone) {padding: 10px; font-size: 110%;}
+    @include respond-to(largetablet) {padding: 20px;}
+  }
+}
+
+.hp-section .half-page.services-right {
+  @include respond-to(smalltablet) {width: 69%;}
+}
+
+.hp-section .half-page.services-left {
+  @include respond-to(smalltablet) {width: 30%;}
+}

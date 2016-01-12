@@ -1,0 +1,58 @@
+footer.main-footer {
+  min-height: 300px;
+  background: $front_soft_green;
+  font-family: $sans;
+  padding-top: 20px;
+  font-weight: 400;
+  color: $front_green;
+  margin-top: 20px;
+  padding: 10px;
+
+
+  .footer-tagline {
+    text-align: center;
+    font-family: $serif;
+    font-size: 120%;
+  }
+
+  .footer-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    text-align: center;
+
+    @include respond-to(phone) {display: block; width: 100%;}
+    @include respond-to(smalltablet) {display: block; width: 100%;}
+    @include respond-to(largetablet) {display: block; width: 100%; padding-bottom: 30px;}
+
+    ul {
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        text-transform: capitalize;
+      }
+    }
+
+    li, p {
+      font-size: 120%;
+      padding: 5px 0;
+      margin: 0;
+    }
+
+    h3 {
+      font-family: $serif;
+      color: $front_green;
+      text-transform: uppercase;
+
+      &:after {
+        display: block;
+        content: '';
+        height: 3px;
+        width: 200px;
+        margin: 15px auto;
+        background: $front_green;
+      }
+    }
+  }
+}

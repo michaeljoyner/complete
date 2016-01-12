@@ -1,0 +1,73 @@
+.info-detailed {
+  margin-top: 50px;
+  font-weight: 300;
+
+  .info-detail {
+    margin: 50px 0;
+    .info-icon-box {
+      width: 35%;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+
+      @include respond-to(phone) {width: 100%; text-align: center;}
+
+      i {
+        font-size: 200px;
+        color: $front_soft_green;
+
+        @include respond-to(phone) {font-size: 24px;}
+      }
+
+      i.smaller {
+        font-size: 100px;
+        @include respond-to(phone) {font-size: 24px;}
+      }
+    }
+
+    .info-text-box {
+      width: 64%;
+      display: inline-block;
+      font-family: $sans;
+      //padding-top: 30px;
+
+      @include respond-to(phone) {width: 100%; padding: 10px;}
+
+
+      .title {
+        font-family: $serif;
+        color: $dark_text;
+        text-transform: uppercase;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+.info-detail:hover {
+  .info-icon-box i {
+    color: $front_green;
+    animation: hardlyShake .7s forwards;
+  }
+
+  .info-text-box .title {
+    color: $front_green;
+  }
+}
+
+@keyframes hardlyShake {
+  0% {transform: rotate(0deg);}
+  10% {transform: rotate(15deg);}
+  20% {transform: rotate(0);}
+  30% {transform: rotate(-15deg);}
+  40% {transform: rotate(0);}
+  50% {transform: rotate(15deg);}
+  60% {transform: rotate(0);}
+  70% {transform: rotate(-15deg);}
+  80% {transform: rotate(0deg);}
+  90% {transform: rotate(15deg);}
+  100% {transform: rotate(0deg);}
+}

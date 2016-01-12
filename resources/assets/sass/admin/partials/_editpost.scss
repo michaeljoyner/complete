@@ -1,0 +1,32 @@
+.tag-manager-box {
+
+  .tag-list {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin: 10px;
+      background: $primary_green;
+      color: $white;
+      padding: 4px 8px;
+      border-radius: 5px;
+
+      i {
+        vertical-align: middle;
+        font-size: 16px;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.hidden-image-upload {
+  display: none;
+}
+
+.posts-form {
+  .title-input {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+}

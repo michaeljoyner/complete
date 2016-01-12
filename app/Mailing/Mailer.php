@@ -1,0 +1,40 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mooz
+ * Date: 1/11/16
+ * Time: 10:55 AM
+ */
+
+namespace App\Mailing;
+
+use Illuminate\Contracts\Mail\Mailer as LaravelMailer;
+
+abstract class Mailer
+{
+    /**
+     * @var LaravelMailer
+     */
+    private $laravelMailer;
+    public function __construct(LaravelMailer $laravelMailer)
+    {
+        $this->laravelMailer = $laravelMailer;
+    }
+    protected function sendTo($to, $from, $subject, $view, $data, $attachments = [])
+    {
+        $this->laravelMailer->send($view, $data, function($message) use ($to, $from, $subject, $attachments)
+        {
+            $message->to($to)->subject($subject);
+            foreach($attachments as $filename)
+            {
+                $message->attach($filename);
+            }
+            if($from !== '')
+            {
+                $message->from($from);
+            }
+        });
+    }
+
+
+}

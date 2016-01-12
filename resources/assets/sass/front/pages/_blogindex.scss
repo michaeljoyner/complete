@@ -1,0 +1,106 @@
+.article-listing > article {
+  font-family: $sans;
+  color: $dark_text;
+  min-height: 150px;
+  margin: 30px 0;
+}
+
+.article-listing > article:after {
+  content: '';
+  display: block;
+  margin: 30px auto 0;
+  width: 80%;
+  height: 2px;
+  background: $front_green; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, $front_soft_green, $front_green); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, $front_soft_green, $front_green); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.article-listing article header {
+  position: relative;
+  height: auto;
+  min-height: 0;
+}
+
+.article-listing article .title {
+  font-family: $serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-bottom: 10px;
+  max-width: 80%;
+  font-size: 24px;
+}
+
+.article-listing article .title:hover {
+  color: $front_green;
+}
+
+.article-listing article header .post-date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  @include respond-to(phone) {position: relative; display: block; width: 100%; top: 0; right: 0; text-align: center;}
+}
+
+.post-description {
+  padding: 30px;
+
+  @include respond-to(phone) {padding: 10px 0;}
+}
+
+.metadata.for-index {
+  font-family: $sans;
+
+  .author {
+    float: left;
+    @include respond-to(phone) {float: none;}
+  }
+
+  .filter-options {
+    float: right;
+    margin: 1em;
+
+    @include respond-to(phone) {float: none; margin: 0;}
+
+    span {
+      @include respond-to(phone) {display: block; margin-top: 10px;}
+    }
+  }
+}
+
+.pagination {
+  .pager {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 50px;
+    list-style-type: none;
+
+    li {
+      font-family: $sans;
+      color: $front_green;
+      font-size: 120%;
+    }
+
+    li.disabled {
+      color: $soft_grey;
+    }
+
+    li:first-child {
+      float: left;
+
+      &:after {
+        content: ' Previous';
+      }
+    }
+
+    li:nth-child(2) {
+      float: right;
+
+      &:before {
+        content: 'Next ';
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.hp-section {
+  font-family: $sans;
+  padding: 50px 0;
+  font-weight: 300;
+  overflow: hidden;
+
+  @include respond-to(desktop) {overflow: visible;}
+  @include respond-to(widedesktop) {overflow: visible;}
+  @include respond-to(superwidedesktop) {overflow: visible;}
+
+  @include respond-to(phone) {padding: 20px 0;}
+
+
+  .text-block {
+    font-size: 120%;
+    color: $dark_text;
+    line-height: 1.6;
+
+    @include respond-to(phone) {font-size: 110%; padding: 10px;}
+  }
+}
+
+.alt-section {
+  background: $front_soft_green;
+  color: $dark_text;
+
+}
+
+.screen-shot {
+  display: block;
+  margin: 50px 0 0 auto;
+  width: 90%;
+  border-radius: 10px;
+  background: $white;
+  box-shadow: -5px 5px 14px $dark_text;
+
+  @include respond-to(phone) {display: none;}
+  @include respond-to(smalltablet) {display: none;}
+}
+
+.screen-shot.iphone {
+  position: absolute;
+  box-shadow: none;
+  background: transparent;
+  top: -80px;
+  right: -100px;
+  width: 40%;
+
+  @include respond-to(phone) {display: inline; position: relative; width: 58%; top: -40px; right: -170px;}
+  @include respond-to(smalltablet) {width: 130%; display: inline;}
+  @include respond-to(largetablet) {width: 50%; top: -30px;}
+}
+
+.resources {
+  .half-page.resources-left {
+    @include respond-to(smalltablet) {width: 65%; padding: 10px;}
+    @include respond-to(largetablet) {padding: 10px;}
+  }
+
+  .half-page.resources-right {
+    @include respond-to(smalltablet) {width: 34%;}
+    @include respond-to(largetablet) {padding-top: 50px;}
+  }
+}
+
+.about-me .half-page {
+  @include respond-to(smalltablet) {display: block; width: 100%; padding: 10px;}
+}
+
+.cold-hard-fact-wrapper {
+  width: 85%;
+  min-height: 150px;
+  margin: 20px auto 20px 0;
+  padding: 10px;
+  background: $front_green; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, $front_soft_green , $front_green); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, $front_soft_green , $front_green); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  @include respond-to(phone) {display: none;}
+  @include respond-to(smalltablet) {display: none;}
+  @include respond-to(largetablet) {margin-left: 10px;}
+  &.centered {
+    margin: 20px auto;
+
+    @include respond-to(phone) {display: block;}
+    @include respond-to(smalltablet) {display: block;}
+  }
+
+  .hot-fact {
+    width: 100%;
+    background: $white;
+    min-height: 130px;
+    font-size: 130%;
+    font-family: $serif;
+    color: $front_green;
+    padding: 20px;
+  }
+}

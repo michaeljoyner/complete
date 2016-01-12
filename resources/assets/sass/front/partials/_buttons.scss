@@ -1,0 +1,28 @@
+.section-button {
+  background: $front_green;
+  color: $white;
+  font-family: $sans;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.small-btn {
+  background: $front_green;
+  color: $white;
+  font-family: $sans;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  font-size: 80%;
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a.small-btn {
+  color: $white;
+}
