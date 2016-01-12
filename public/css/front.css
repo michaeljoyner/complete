@@ -93,7 +93,9 @@ a.small-btn {
     padding: 0;
     color: #fff;
     text-align: right;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1001; }
     @media only screen and (max-width: 413px) {
       .hero .hero-title {
         font-size: 50px;
@@ -135,6 +137,9 @@ a.small-btn {
     #heart {
       display: none; } }
   @media only screen and (min-width: 721px) and (max-width: 969px) {
+    #heart {
+      display: none; } }
+  @media only screen and (min-width: 970px) and (max-width: 1199px) {
     #heart {
       display: none; } }
 
@@ -392,6 +397,12 @@ a.small-btn {
       transform: none;
       position: relative;
       box-shadow: none; } }
+  @media only screen and (min-width: 970px) and (max-width: 1199px) {
+    .services .service-card-holder {
+      -webkit-transform: none;
+      transform: none;
+      position: relative;
+      box-shadow: none; } }
 
 .services .service-card-holder:hover {
   -webkit-transform: rotateX(0) rotateY(0) rotateZ(0) translateX(-100px) translateY(50px);
@@ -408,6 +419,10 @@ a.small-btn {
     .services .service-card-holder:hover {
       -webkit-transform: none;
       transform: none; } }
+  @media only screen and (min-width: 970px) and (max-width: 1199px) {
+    .services .service-card-holder:hover {
+      -webkit-transform: none;
+      transform: none; } }
 
 .services .services-right {
   padding: 50px 0 50px 50px;
@@ -419,6 +434,9 @@ a.small-btn {
       padding: 10px;
       font-size: 110%; } }
   @media only screen and (min-width: 721px) and (max-width: 969px) {
+    .services .services-right {
+      padding: 20px; } }
+  @media only screen and (min-width: 970px) and (max-width: 1199px) {
     .services .services-right {
       padding: 20px; } }
 

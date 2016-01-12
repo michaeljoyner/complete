@@ -58,7 +58,7 @@
                 minus mollitia natus nemo nihil optio quasi quidem quis quod repellat repudiandae sequi sint, soluta
                 sunt tempora voluptatum!
             </div>
-            <div class="section-button">learn more</div>
+            <div class="section-button"><a href="/services">learn more</a></div>
         </div>
     </section>
     <section class="hp-section resources alt-section">
@@ -75,7 +75,7 @@
                     minus mollitia natus nemo nihil optio quasi quidem quis quod repellat repudiandae sequi sint, soluta
                     sunt tempora voluptatum!
                 </div>
-                <div class="section-button">browse</div>
+                <div class="section-button"><a href="/blog">browse</a></div>
             </div>
             <div class="half-page resources-right">
                 <img class="screen-shot" src="/images/assets/recipe.png" alt="screenshot">

@@ -18,6 +18,8 @@
     color: #fff;
     text-align: right;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 1001;
 
     @include respond-to(phone) {font-size: 50px; padding-right: 10px; padding-top: 50px;}
     @include respond-to(smalltablet) {padding-right: 50px; padding-left: 50px;}
@@ -46,6 +48,7 @@
   @include respond-to(phone) {display: none;}
   @include respond-to(smalltablet) {display: none;}
   @include respond-to(largetablet) {display: none;}
+  @include respond-to(desktop) {display: none;}
 }
 #heart:hover {
   animation: heartBeat 2s 0s infinite;
