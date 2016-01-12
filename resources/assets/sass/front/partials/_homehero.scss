@@ -20,6 +20,7 @@
     margin-bottom: 10px;
     position: relative;
     z-index: 1001;
+    clear: both;
 
     @include respond-to(phone) {font-size: 50px; padding-right: 10px; padding-top: 50px;}
     @include respond-to(smalltablet) {padding-right: 50px; padding-left: 50px;}

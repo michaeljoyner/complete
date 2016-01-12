@@ -95,7 +95,8 @@ a.small-btn {
     text-align: right;
     margin-bottom: 10px;
     position: relative;
-    z-index: 1001; }
+    z-index: 1001;
+    clear: both; }
     @media only screen and (max-width: 413px) {
       .hero .hero-title {
         font-size: 50px;
