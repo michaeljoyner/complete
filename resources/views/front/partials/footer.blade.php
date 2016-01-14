@@ -11,14 +11,15 @@
     <div class="footer-col">
         <h3>I love these Guys...</h3>
         <ul class="partners-list">
-            <li><a href="#">fitlab sa</a></li>
             <li><a href="#">wickedly healthy food</a></li>
+            <li><a href="#">healthy times</a></li>
+            <li><a href="#">Phat Girls</a></li>
         </ul>
     </div>
     <div class="footer-col">
         <h3>Boring, but important</h3>
-        <p>I am a registered member of HCWSA.</p>
-        <p>My practice number is: 0123567</p>
+        <p>I am a registered member of the HPCSA (DT 0038318)</p>
+        <p>My practice number is: 0454524</p>
         <p>All content is copyrighted &copy;</p>
     </div>
 </footer>

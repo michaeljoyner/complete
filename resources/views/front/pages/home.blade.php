@@ -50,14 +50,15 @@
             </div>
         </div>
         <div class="half-page services-right text-block">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi enim error harum inventore
-                magnam perferendis temporibus velit? Autem dolore, dolorum earum esse illo ipsa minus officia possimus
-                praesentium quam!
-            </div>
-            <div>Adipisci animi corporis culpa cupiditate delectus dignissimos distinctio dolore illo impedit laudantium
-                minus mollitia natus nemo nihil optio quasi quidem quis quod repellat repudiandae sequi sint, soluta
-                sunt tempora voluptatum!
-            </div>
+            <p>I offer a variety of services, from one-on-one consults, group or family consults, sleep apnea testing,
+                group talks and corporate wellness programmes.</p>
+            <p>One-on-one consults are around an hour which allows me to gather the information I need to develop a plan
+                that will be targeted to your needs and lifestyle. Family consults ensure sustainability as the whole
+                family is working together to reach their health goals. Group talks can be targeted at a variety of
+                audiences: sports clubs, work colleagues or school children for example.</p>
+            <p>Sleep apnea testing is an extra service I offer to general medical practitioners and specialist doctors
+                who want clarification of whether their patient suffers from this condition or not. If you are not sure
+                what it is you are looking for, send me a message and I’ll be happy to help out.</p>
             <div class="section-button"><a href="/services">learn more</a></div>
         </div>
     </section>
@@ -65,16 +66,16 @@
         <div class="container">
             <h1 class="section-heading">Articles, Recipes, Tips and more</h1>
             <div class="half-page text-block resources-left">
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi enim error harum inventore
-                    magnam perferendis temporibus velit? Autem dolore, dolorum earum esse illo ipsa minus officia
-                    possimus
-                    praesentium quam!
-                </div>
-                <div>Adipisci animi corporis culpa cupiditate delectus dignissimos distinctio dolore illo impedit
-                    laudantium
-                    minus mollitia natus nemo nihil optio quasi quidem quis quod repellat repudiandae sequi sint, soluta
-                    sunt tempora voluptatum!
-                </div>
+                <p>Julia Child said: “The only time to eat diet food is when you are waiting for the steak to cook”. I
+                    couldn’t agree more. Food is an important part of our lives and should be enjoyed. To me, there is
+                    nothing more satisfying than sitting down to a delicious meal that I have prepared with carefully
+                    thought out ingredients, and I assure you that eating healthily or losing weight should not equate
+                    to eating boring or bland meals. You can trust me on that.</p>
+                <p>There is so much conflicting health-related information available out there it is easy to become
+                    confused. Should you eat wheat or not? Should you be including dairy or excluding it? Should you try
+                    this new weight loss miracle fruit? I strive to separate the information from the misinformation
+                    with my articles, and to give you take-home information that you can easily implement in your day to
+                    day life.</p>
                 <div class="section-button"><a href="/blog">browse</a></div>
             </div>
             <div class="half-page resources-right">
@@ -98,7 +99,8 @@
             </aside>
             <aside class="cold-hard-fact-wrapper">
                 <div class="hot-fact">
-                    I assist patients in a way that suits their lifestyle,  as I don't believe there is a "one size fits all" solution to health
+                    I assist patients in a way that suits their lifestyle, as I don't believe there is a "one size fits
+                    all" solution to health
                 </div>
             </aside>
             <aside class="cold-hard-fact-wrapper">

@@ -19,9 +19,15 @@
         </section>
         <footer>
             <div class="sharing">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-google-plus"></i>
-                <i class="fa fa-twitter"></i>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(Request::url()) }}" class="share-icon-link">
+                    <img src="{{ asset('images/assets/fb.png') }}" alt="share to facebook">
+                </a>
+                <a href="https://twitter.com/home?status={{ urlencode($post->title . ' ' . Request::url()) }}" class="share-icon-link">
+                    <img src="{{ asset('images/assets/twitter.png') }}" alt="share to twitter">
+                </a>
+                <a href="mailto:?&subject=Read&body={{ urlencode('You may find this interesting '. Request::url()) }}" class="share-icon-link">
+                    <img src="{{ asset('images/assets/email.png') }}" alt="share with email">
+                </a>
             </div>
         </footer>
     </article>

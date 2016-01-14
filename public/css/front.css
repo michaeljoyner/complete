@@ -1013,17 +1013,14 @@ footer.main-footer {
     color: #888; }
 
 .sharing {
-  text-align: center; }
-
-.sharing .fa {
-  background: #1D976C;
-  color: #ffffff;
-  font-size: 1.75em;
-  line-height: 50px;
-  min-width: 50px;
-  min-height: 50px;
-  border-radius: 50%;
-  margin: 40px 10px; }
+  text-align: center;
+  margin-top: 50px; }
+  .sharing a {
+    transition: .7s;
+    margin: 10px; }
+  .sharing a:hover {
+    -webkit-transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1) rotate(360deg); }
 
 .hp-section {
   font-family: "Lato", Helvetica, Ariel, sans-serif;
