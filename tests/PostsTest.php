@@ -59,6 +59,44 @@ class PostsTest extends TestCase
     /**
      * @test
      */
+    public function a_posts_category_can_be_changed()
+    {
+        $category1 = factory(PostCategory::class)->create();
+        $category2 = factory(PostCategory::class)->create();
+        $post = factory(Post::class)->create(['post_category_id' => $category1->id]);
+
+        $post->attachTo($category2);
+
+        $this->seeInDatabase('posts', [
+            'id' => $post->id,
+            'post_category_id' => $category2->id
+        ]);
+    }
+
+    /**
+     * @test
+     */
+    public function a_posts_category_may_be_reassigned_by_post()
+    {
+        $category1 = factory(PostCategory::class)->create();
+        $category2 = factory(PostCategory::class)->create();
+        $post = factory(Post::class)->create(['post_category_id' => $category1->id]);
+
+        $this->withoutMiddleware();
+        $response = $this->call('POST', '/admin/posts/'.$post->id.'/reassign', [
+            'new_category_id' => $category2->id
+        ]);
+        $this->assertEquals(302, $response->status());
+//        $this->seePageIs('/admin/blog/categories/'.$category2->id.'/posts');
+        $this->seeInDatabase('posts', [
+            'id' => $post->id,
+            'post_category_id' => $category2->id
+        ]);
+    }
+
+    /**
+     * @test
+     */
     public function a_post_can_be_deleted()
     {
         $post = factory(Post::class)->create();

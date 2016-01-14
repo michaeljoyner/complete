@@ -17,9 +17,10 @@ class PostsController extends Controller
     public function categoryPostsIndex($categoryId)
     {
         $category = PostCategory::findOrFail($categoryId);
+        $otherCategories = PostCategory::where('id', '<>', $category->id)->get();
         $posts = $category->posts()->latest()->paginate(10);
 
-        return view('admin.posts.index')->with(compact('category', 'posts'));
+        return view('admin.posts.index')->with(compact('category', 'posts', 'otherCategories'));
     }
 
     public function store($userId, $categoryId, Request $request)
@@ -67,6 +68,14 @@ class PostsController extends Controller
         $post->setTagsFromArray($request->tags);
 
         return response()->json(['tags' => $post->tags->pluck('tag')]);
+    }
+
+    public function setCategory($id, Request $request)
+    {
+        $category = PostCategory::findOrFail($request->new_category_id);
+        Post::findOrFail($id)->attachTo($category);
+
+        return redirect('admin/blog/categories/'.$category->id.'/posts');
     }
 
     public function getTags($id)

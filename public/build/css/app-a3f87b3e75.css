@@ -8510,6 +8510,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     .blog-post .blog-post-actions .post-actions {
       text-align: right;
       padding-right: 20px; }
+      .blog-post .blog-post-actions .post-actions a {
+        cursor: pointer; }
 
 .blog-index-pager .pagination li.active {
   background-color: #3ED893;

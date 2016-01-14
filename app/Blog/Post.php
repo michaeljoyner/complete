@@ -42,6 +42,12 @@ class Post extends Model implements SluggableInterface
         return $this->belongsTo(PostCategory::class, 'post_category_id');
     }
 
+    public function attachTo(PostCategory $category)
+    {
+        $this->post_category_id = $category->id;
+        return $this->save();
+    }
+
     public function setPublishedStatus($publish)
     {
         if($publish && is_null($this->published_at)) {

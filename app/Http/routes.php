@@ -48,6 +48,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
         Route::post('posts/{id}', 'PostsController@update');
         Route::delete('posts/{id}', 'PostsController@delete');
         Route::post('posts/{id}/publish', 'PostsController@setPublishedStatus');
+        Route::post('posts/{id}/reassign', 'PostsController@setCategory');
 
         Route::post('api/posts/{id}/tags', 'PostsController@setTags');
         Route::get('api/posts/{id}/tags', 'PostsController@getTags');

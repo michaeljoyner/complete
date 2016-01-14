@@ -43,10 +43,15 @@
                                 <i class="material-icons blue-text small">mode_edit</i>
                             </a>
                             <a class="delete-modal-trigger"
-                               href="#delete-modal"
+                               {{--href="#delete-modal"--}}
                                data-delete-url="/admin/posts/{{ $post->id }}"
                                data-item-name="{{ $post->title }}"
                             ><i class="material-icons red-text small">delete</i></a>
+                            <a class="reassign-modal-trigger"
+                               {{--href="#reassign-modal"--}}
+                               data-post-id="{{ $post->id }}"
+                               data-item-name="{{ $post->title }}"
+                            ><i class="material-icons green-text small">compare_arrows</i></a>
                         </div>
                     </div>
                 </div>
@@ -99,6 +104,24 @@
             </form>
         </div>
     </div>
+    <div id="reassign-modal" class="modal">
+        <div class="modal-content">
+            <h4>Reassign this post</h4>
+            <p>Select a category to reassign <span id="reassign-item-name">this item</span> to.</p>
+        </div>
+        <div class="modal-footer">
+            @foreach($otherCategories as $otherCategory)
+                <form class="reassign-form" action="" method="POST">
+                    {!! csrf_field() !!}
+                    <input type="hidden" name="_method" value="POST">
+                    <input type="hidden" name="new_category_id" value="{{ $otherCategory->id }}">
+                    <button class="btn waves-effect waves-light yellow darken-{{ $otherCategory->id }}" type="submit">
+                        {{ $otherCategory->name }}
+                    </button>
+                </form>
+            @endforeach
+        </div>
+    </div>
     <template id="post-publish-toggle-template">
         <div class="switch published-switch">
             <label>
@@ -122,6 +145,16 @@
                 document.querySelector('#delete-item-name').textContent = this.getAttribute('data-item-name');
 
                 $('#delete-modal').openModal();
+            });
+            $('.reassign-modal-trigger').on('click', function() {
+                console.log('clicky');
+                var postId = parseInt($(this).attr('data-post-id'));
+                $('.reassign-form').each(function($item) {
+                    this.setAttribute('action', '/admin/posts/' + postId + '/reassign');
+                })
+                document.querySelector('#reassign-item-name').textContent = this.getAttribute('data-item-name');
+
+                $('#reassign-modal').openModal();
             });
         });
     </script>
