@@ -25,7 +25,7 @@
                 <a href="https://twitter.com/home?status={{ urlencode($post->title . ' ' . Request::url()) }}" class="share-icon-link">
                     <img src="{{ asset('images/assets/twitter.png') }}" alt="share to twitter">
                 </a>
-                <a href="mailto:?&subject=Read&body="You may find this interesting {{ Request::url() }}" class="share-icon-link">
+                <a href="mailto:?&subject=Read&body={{ Request::url() }}" class="share-icon-link">
                     <img src="{{ asset('images/assets/email.png') }}" alt="share with email">
                 </a>
             </div>
