@@ -83,3 +83,11 @@
 .hp-section .half-page.services-left {
   @include respond-to(smalltablet) {width: 30%;}
 }
+
+.services.scrolled .services-left .service-card-holder {
+  transform: rotateX(0) rotateY(0) rotateZ(0) translateX(-100px) translateY(50px);
+  @include respond-to(phone) {transform: none;}
+  @include respond-to(smalltablet) {transform: none;}
+  @include respond-to(largetablet) {transform: none;}
+  @include respond-to(desktop) {transform: none;}
+}

@@ -11,9 +11,9 @@
     <div class="footer-col">
         <h3>I love these Guys...</h3>
         <ul class="partners-list">
-            <li><a href="#">wickedly healthy food</a></li>
-            <li><a href="#">healthy times</a></li>
-            <li><a href="#">Phat Girls</a></li>
+            <li><a href="https://www.facebook.com/WickedlyHealthyFood">wickedly healthy food</a></li>
+            <li><a href="https://www.facebook.com/Healthy-Times-715651755127246/">healthy times</a></li>
+            <li><a href="http://www.phatgirlsorders.wix.com/phat-girls">Phat Girls</a></li>
         </ul>
     </div>
     <div class="footer-col">

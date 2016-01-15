@@ -50,15 +50,11 @@
             </div>
         </div>
         <div class="half-page services-right text-block">
-            <p>I offer a variety of services, from one-on-one consults, group or family consults, sleep apnea testing,
-                group talks and corporate wellness programmes.</p>
-            <p>One-on-one consults are around an hour which allows me to gather the information I need to develop a plan
-                that will be targeted to your needs and lifestyle. Family consults ensure sustainability as the whole
-                family is working together to reach their health goals. Group talks can be targeted at a variety of
-                audiences: sports clubs, work colleagues or school children for example.</p>
-            <p>Sleep apnea testing is an extra service I offer to general medical practitioners and specialist doctors
-                who want clarification of whether their patient suffers from this condition or not. If you are not sure
-                what it is you are looking for, send me a message and I’ll be happy to help out.</p>
+            <p>With so much information at our fingertips, it is hard to know who to trust when it comes to advice
+                regarding health, fitness, wellness and weight loss. A dietician's job is to sift through nutrition and
+                health research and translate these findings into usable, safe and practical day to day advice and
+                guidelines.</p>
+            <p>My services come in a variety of forms, to find out what will suit you best, learn more here.</p>
             <div class="section-button"><a href="/services">learn more</a></div>
         </div>
     </section>
@@ -126,4 +122,11 @@
         </div>
     </section>
     @include('front.partials.footer')
+@endsection
+
+@section('bodyscripts')
+    <script>
+        var scrolly = new ScrollAlerter(document.querySelectorAll('.hp-section'));
+        scrolly.init();
+    </script>
 @endsection

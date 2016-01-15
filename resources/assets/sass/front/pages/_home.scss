@@ -56,12 +56,20 @@
   .half-page.resources-left {
     @include respond-to(smalltablet) {width: 65%; padding: 10px;}
     @include respond-to(largetablet) {padding: 10px;}
+    vertical-align: middle;
   }
 
   .half-page.resources-right {
     @include respond-to(smalltablet) {width: 34%;}
     @include respond-to(largetablet) {padding-top: 50px;}
+    vertical-align: middle;
+    transition: 1s;
+    transform: translate3d(1000px,0,0);
   }
+}
+
+.scrolled.resources .half-page.resources-right {
+  transform: translate3d(0,0,0);
 }
 
 .about-me .half-page {
@@ -73,10 +81,23 @@
   min-height: 150px;
   margin: 20px auto 20px 0;
   padding: 10px;
+  transform: translate3d(-800px,0,0);
   background: $front_green; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, $front_soft_green , $front_green); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, $front_soft_green , $front_green); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  &:nth-child(1) {
+    transition: .2s;
+  }
+  &:nth-child(2) {
+    transition: .5s;
+  }
+  &:nth-child(3) {
+    transition: 1s;
+  }
+  &:nth-child(4) {
+    transition: 1.5s;
+  }
   @include respond-to(phone) {display: none;}
   @include respond-to(smalltablet) {display: none;}
   @include respond-to(largetablet) {margin-left: 10px;}
@@ -96,4 +117,8 @@
     color: $front_green;
     padding: 20px;
   }
+}
+
+.scrolled .cold-hard-fact-wrapper {
+  transform: translate3d(0,0,0);
 }
