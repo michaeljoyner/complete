@@ -2,12 +2,14 @@
 
   .services-left {
     padding: 0 50px 50px 0;
-    -webkit-perspective: 1000px;
+    //-webkit-perspective: 1000px;
+    //-moz-perspective: 1000px;
+    perspective: 1000px;
     position: relative;
 
-    @include respond-to(phone) {-webkit-perspective: 0px; padding: 10px;}
-    @include respond-to(smalltablet) {-webkit-perspective: 0px; padding: 10px;}
-    @include respond-to(largetablet) {-webkit-perspective: 0px; padding: 10px;}
+    @include respond-to(phone) {perspective: 0px; padding: 10px;}
+    @include respond-to(smalltablet) {perspective: 0px; padding: 10px;}
+    @include respond-to(largetablet) {perspective: 0px; padding: 10px;}
   }
   .service-card {
     width: 150px;

@@ -309,18 +309,22 @@ a.small-btn {
 .services .services-left {
   padding: 0 50px 50px 0;
   -webkit-perspective: 1000px;
+  perspective: 1000px;
   position: relative; }
   @media only screen and (max-width: 413px) {
     .services .services-left {
       -webkit-perspective: 0px;
+      perspective: 0px;
       padding: 10px; } }
   @media only screen and (min-width: 414px) and (max-width: 720px) {
     .services .services-left {
       -webkit-perspective: 0px;
+      perspective: 0px;
       padding: 10px; } }
   @media only screen and (min-width: 721px) and (max-width: 969px) {
     .services .services-left {
       -webkit-perspective: 0px;
+      perspective: 0px;
       padding: 10px; } }
 
 .services .service-card {
