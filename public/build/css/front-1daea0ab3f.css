@@ -1176,7 +1176,9 @@ footer.main-footer {
     .cold-hard-fact-wrapper {
       margin-left: 10px; } }
   .cold-hard-fact-wrapper.centered {
-    margin: 20px auto; }
+    margin: 20px auto;
+    -webkit-transform: none;
+    transform: none; }
     @media only screen and (max-width: 413px) {
       .cold-hard-fact-wrapper.centered {
         display: block; } }
