@@ -103,6 +103,7 @@
   @include respond-to(largetablet) {margin-left: 10px;}
   &.centered {
     margin: 20px auto;
+    transform: none;
 
     @include respond-to(phone) {display: block;}
     @include respond-to(smalltablet) {display: block;}
