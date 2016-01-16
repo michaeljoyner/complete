@@ -73,7 +73,7 @@
                         </tr>
                         <tr>
                             <td>Discovery Vitality Assessment</td>
-                            <td>R320</td>
+                            <td>R340</td>
                         </tr>
                     </tbody>
                 </table>

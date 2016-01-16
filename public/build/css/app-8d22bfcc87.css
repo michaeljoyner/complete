@@ -8548,4 +8548,39 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 2.5em;
   font-weight: 700; }
 
+canvas.stats-chart {
+  display: block;
+  margin: 0 auto; }
+
+.sub-section-heading {
+  color: #1D976C;
+  text-transform: uppercase;
+  text-align: center; }
+
+.stat-badge {
+  width: 400px;
+  height: 150px;
+  border: 4px solid #1D976C;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px; }
+  .stat-badge .stat-num {
+    width: 149px;
+    height: 150px;
+    display: inline-block;
+    font-size: 80px;
+    color: #3ED893;
+    text-align: center;
+    vertical-align: top; }
+  .stat-badge .stat-label {
+    display: inline-block;
+    width: 239px;
+    height: 142px;
+    color: #1D976C;
+    background: #89E2B1;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    vertical-align: top; }
+
 /*# sourceMappingURL=app.css.map */

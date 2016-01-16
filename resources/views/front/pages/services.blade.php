@@ -22,7 +22,7 @@
                     composition analysis will provide a baseline and allow goals to be set. Follow up’s are vital to
                     ensure sustainability of new behaviours. These sessions are generally shorter than the initial
                     consult and are recommended every two to four weeks, depending in the individual’s
-                    circumstances. </p>
+                    circumstances. I am also able to do Discovery Vitality assessments.</p>
             </div>
         </div>
         <div class="info-detail">
