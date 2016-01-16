@@ -1,5 +1,14 @@
 @extends('front.base')
 
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '/images/assets/fbimage.png',
+        'ogTitle' => 'CompleteLiving',
+        'ogDescription' => 'The site of Stephanie Joyner, consulting dietician. Find out more about my services and read up on my latest articles or recipes.'
+    ])
+    <meta name="description" content="The site of Stephanie Joyner, consulting dietician. Find out more about my services and read up on my latest articles or recipes.">
+@endsection
+
 @section('content')
     <header class="hero">
         @include('front.partials.navlist')

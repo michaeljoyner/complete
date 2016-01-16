@@ -1,5 +1,14 @@
 @extends('front.base')
 
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '/images/assets/fbimage.png',
+        'ogTitle' => $post->title,
+        'ogDescription' => $post->description
+    ])
+    <meta name="description" content="{{ $post->description }}">
+@endsection
+
 @section('content')
     @include('front.partials.secondarynav')
     <article class="page-content">

@@ -1,5 +1,14 @@
 @extends('front.base')
 
+@section('head')
+    @include('front.partials.ogmeta', [
+        'ogImage' => '/images/assets/fbimage.png',
+        'ogTitle' => 'CompleteLiving - '.$category->name,
+        'ogDescription' => 'Read articles, recipes and more on the subject of diet and health'
+    ])
+    <meta name="description" content="Read articles, recipes and more on the subject of diet and health">
+@endsection
+
 @section('content')
     @include('front.partials.secondarynav')
     <section class="page-content">
