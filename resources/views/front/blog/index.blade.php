@@ -11,7 +11,9 @@
                     Filter posts:
                     <span>
                     @foreach($filters as $filter)
-                    <a href="/blog/{{ $filter->slug }}" class="small-btn">{{ ucfirst($filter->name) }}</a>
+                        @if($filter->posts->count() > 0)
+                        <a href="/blog/{{ $filter->slug }}" class="small-btn">{{ ucfirst($filter->name) }}</a>
+                        @endif
                     @endforeach
                     @if($category->name !== "All Posts")
                         <a href="/blog" class="small-btn">All</a>

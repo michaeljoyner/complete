@@ -16,11 +16,15 @@ class BlogController extends Controller
         if($categorySlug) {
             $category = PostCategory::findBySlug($categorySlug);
             $posts = $category->posts()->where('published', 1)->orderBy('published_at', 'desc')->simplePaginate(10);
-            $filters = PostCategory::where('slug', '<>', $categorySlug)->get();
+            $filters = PostCategory::with(['posts' => function($query) {
+                $query->where('published', 1);
+            }])->where('slug', '<>', $categorySlug)->get();
         } else {
             $category = $this->makeDefaultCategory();
             $posts = Post::where('published', 1)->orderBy('published_at', 'desc')->simplePaginate(10);
-            $filters = PostCategory::all();
+            $filters = PostCategory::with(['posts' => function($query) {
+                $query->where('published', 1);
+            }])->get();
         }
 
         return view('front.blog.index')->with(compact('category', 'posts', 'filters'));
