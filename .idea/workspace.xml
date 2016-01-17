@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1041059b-28db-4daf-8a3f-98a65ef90dc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/partials/ogmeta.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/blog/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/blog/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/blog/post.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/blog/post.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/contact.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/contact.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/pages/services.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/pages/services.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/partials/footer.blade.php" />
     </list>
     <ignored path="complete.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ogmeta.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/partials/ogmeta.blade.php">
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/partials/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.19243987">
+              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -80,7 +74,6 @@
         <option value="$PROJECT_DIR$/resources/assets/sass/admin/partials/_blogindex.scss" />
         <option value="$PROJECT_DIR$/resources/assets/js/front.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/scrollalerter.js" />
-        <option value="$PROJECT_DIR$/resources/views/front/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/front/partials/_hpservies.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/front/pages/_home.scss" />
@@ -99,6 +92,7 @@
         <option value="$PROJECT_DIR$/resources/views/front/blog/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/blog/post.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/partials/ogmeta.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/partials/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -568,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44902635">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/scrollalerter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4977778">
@@ -1002,6 +989,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19243987">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
           <folding />
         </state>
       </provider>
