@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Complete Admin</title>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
     @yield('head')
 </head>
