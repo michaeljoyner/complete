@@ -84,7 +84,7 @@
                 <div class="section-button"><a href="/blog">browse</a></div>
             </div>
             <div class="half-page resources-right">
-                <img class="screen-shot" src="/images/assets/recipe.png" alt="screenshot">
+                <img class="screen-shot" src="/images/assets/recipe.jpg" alt="screenshot">
                 <img class="screen-shot iphone" src="/images/assets/iphone.png" alt="screenshot">
             </div>
         </div>
