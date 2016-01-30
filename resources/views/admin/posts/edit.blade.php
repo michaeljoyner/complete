@@ -62,7 +62,7 @@
             selector: '#post-body',
             plugins: ['link', 'image', 'paste', 'fullscreen'],
             menubar: false,
-            toolbar: 'undo redo | styleselect | bold italic | link mybutton | fullscreen',
+            toolbar: 'undo redo | styleselect | bold italic | bullist numlist | link mybutton | fullscreen',
             paste_data_images: true,
 //            images_upload_url: '/api/posts/images',
             height: 700,
