@@ -12,6 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300|Bitter:400,700|Merriweather+Sans:800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{ elixir('css/front.css') }}">
+    <meta name="theme-color" content="#1D976C">
     @yield('head')
     {{--<script src="js/vendor/modernizr-2.8.3.min.js"></script>--}}
 </head>
