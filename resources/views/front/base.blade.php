@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Complete Living</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="d1DeqZB6xp_IF5Yxanch0QSgQGybXsVlFMPnxgk2XeM" />
+    <meta name="google-site-verification" content="d1DeqZB6xp_IF5Yxanch0QSgQGybXsVlFMPnxgk2XeM"/>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
