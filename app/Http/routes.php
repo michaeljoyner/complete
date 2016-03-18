@@ -54,6 +54,11 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
         Route::get('api/posts/{id}/tags', 'PostsController@getTags');
 
         Route::post('api/blog/images', 'BlogImageUploadsController@storeImage');
+
+        Route::get('api/analytics/most-visited', 'AnalyticsController@mostVisited');
+        Route::get('api/analytics/referrers', 'AnalyticsController@referrers');
+        Route::get('api/analytics/pageviews', 'AnalyticsController@pageviews');
+        Route::get('api/analytics/article-count', 'AnalyticsController@articleCount');
     });
 
     Route::group(['middleware' => 'guest', 'namespace' => ''], function () {

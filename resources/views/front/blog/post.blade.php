@@ -6,7 +6,7 @@
         'ogTitle' => $post->title,
         'ogDescription' => $post->description
     ])
-    
+
     <meta name="description" content="{{ $post->description }}">
 @endsection
 
