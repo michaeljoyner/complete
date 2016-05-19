@@ -69,10 +69,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key'    => 'your-key',
-            'secret' => 'your-secret',
-            'region' => 'your-region',
-            'bucket' => 'your-bucket',
+            'key'    => env('AMAZON_KEY'),
+            'secret' => env('AMAZON_SECRET'),
+            'region' => 'ap-southeast-1',
+            'bucket' => 'complete-bkup',
         ],
 
         'rackspace' => [
