@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1041059b-28db-4daf-8a3f-98a65ef90dc4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
     </list>
     <ignored path="complete.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.83505154">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -46,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Importing/ArticleReader.php" />
         <option value="$PROJECT_DIR$/public/read_article.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/mixins/_media.scss" />
@@ -97,6 +93,7 @@
         <option value="$PROJECT_DIR$/config/laravel-backup.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
       </list>
     </option>
   </component>
@@ -143,7 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,14 +227,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value=".env&#9;FILE&#9;file:///Users/mooz/work/complete/.env&#10;config/lara&#9;FILE&#9;file:///Users/mooz/work/complete/config/laravel-backup.php&#10;config/sl&#9;FILE&#9;file:///Users/mooz/work/complete/config/slack.php&#10;config/app&#9;FILE&#9;file:///Users/mooz/work/complete/config/app.php&#10;dashb&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/pages/dashboard.blade.php&#10;ogm&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/partials/ogmeta.blade.php&#10;_colo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;front/b&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/base.blade.php&#10;admin/bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/base.blade.php&#10;app.scss&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/app.scss&#10;_co&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;dashbo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/pages/dashboard.blade.php&#10;laravel-&#9;FILE&#9;file:///Users/mooz/work/complete/config/laravel-analytics.php&#10;servic&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/pages/services.blade.php&#10;front/bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/base.blade.php&#10;_medi&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/mixins/_media.scss&#10;blog/in&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/blog/index.blade.php&#10;_blogi&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/pages/_blogindex.scss&#10;second&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/partials/secondarynav.blade.php&#10;_home&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/partials/_homehero.scss&#10;_blogp&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/pages/_blogpost.scss&#10;_blo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/partials/_blogpost.scss&#10;config/ma&#9;FILE&#9;file:///Users/mooz/work/complete/config/mail.php&#10;services&#9;FILE&#9;file:///Users/mooz/work/complete/config/services.php&#10;gulpfil&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;colo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;gulpf&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;79198&#9;FILE&#9;file:///Users/mooz/work/complete/storage/framework/views/79198a5f58edfee77f22119b9643d6e2&#10;welcom&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/welcome.blade.php&#10;navb&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/partials/navbar.blade.php&#10;create_post&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_14_012111_create_posts_table.php&#10;Model&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;create_impo&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2016_01_06_002725_create_import_results_table.php&#10;blog/ed&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/blog/categories/edit.blade.php&#10;users/in&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/users/index.blade.php&#10;create_po&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_29_144919_create_post_tag_pivot_table.php&#10;create_tag&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_29_144323_create_tags_table.php&#10;na&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/partials/navbar.blade.php&#10;model&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;create_pos&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_19_113927_create_post_categories_table.php&#10;MOdel&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;composer&#9;FILE&#9;file:///Users/mooz/work/complete/composer.json&#10;config/ap&#9;FILE&#9;file:///Users/mooz/work/complete/config/app.php&#10;Mode&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;gulp&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;main.j&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/js/main.js&#10;package.js&#9;FILE&#9;file:///Users/mooz/work/complete/package.json&#10;bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/base.blade.php&#10;filesys&#9;FILE&#9;file:///Users/mooz/work/complete/config/filesystems.php&#10;create_media_li&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_15_024035_create_media_libraries_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="Console/K&#9;FILE&#9;file:///Users/mooz/work/complete/app/Console/Kernel.php&#10;.env&#9;FILE&#9;file:///Users/mooz/work/complete/.env&#10;config/lara&#9;FILE&#9;file:///Users/mooz/work/complete/config/laravel-backup.php&#10;config/sl&#9;FILE&#9;file:///Users/mooz/work/complete/config/slack.php&#10;config/app&#9;FILE&#9;file:///Users/mooz/work/complete/config/app.php&#10;dashb&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/pages/dashboard.blade.php&#10;ogm&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/partials/ogmeta.blade.php&#10;_colo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;front/b&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/base.blade.php&#10;admin/bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/base.blade.php&#10;app.scss&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/app.scss&#10;_co&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;dashbo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/pages/dashboard.blade.php&#10;laravel-&#9;FILE&#9;file:///Users/mooz/work/complete/config/laravel-analytics.php&#10;servic&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/pages/services.blade.php&#10;front/bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/base.blade.php&#10;_medi&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/mixins/_media.scss&#10;blog/in&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/blog/index.blade.php&#10;_blogi&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/pages/_blogindex.scss&#10;second&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/front/partials/secondarynav.blade.php&#10;_home&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/partials/_homehero.scss&#10;_blogp&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/pages/_blogpost.scss&#10;_blo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/front/partials/_blogpost.scss&#10;config/ma&#9;FILE&#9;file:///Users/mooz/work/complete/config/mail.php&#10;services&#9;FILE&#9;file:///Users/mooz/work/complete/config/services.php&#10;gulpfil&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;colo&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/sass/variables/_colours.scss&#10;gulpf&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;79198&#9;FILE&#9;file:///Users/mooz/work/complete/storage/framework/views/79198a5f58edfee77f22119b9643d6e2&#10;welcom&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/welcome.blade.php&#10;navb&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/partials/navbar.blade.php&#10;create_post&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_14_012111_create_posts_table.php&#10;Model&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;create_impo&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2016_01_06_002725_create_import_results_table.php&#10;blog/ed&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/blog/categories/edit.blade.php&#10;users/in&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/users/index.blade.php&#10;create_po&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_29_144919_create_post_tag_pivot_table.php&#10;create_tag&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_29_144323_create_tags_table.php&#10;na&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/partials/navbar.blade.php&#10;model&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;create_pos&#9;FILE&#9;file:///Users/mooz/work/complete/database/migrations/2015_12_19_113927_create_post_categories_table.php&#10;MOdel&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;composer&#9;FILE&#9;file:///Users/mooz/work/complete/composer.json&#10;config/ap&#9;FILE&#9;file:///Users/mooz/work/complete/config/app.php&#10;Mode&#9;FILE&#9;file:///Users/mooz/work/complete/database/factories/ModelFactory.php&#10;gulp&#9;FILE&#9;file:///Users/mooz/work/complete/gulpfile.js&#10;main.j&#9;FILE&#9;file:///Users/mooz/work/complete/resources/assets/js/main.js&#10;package.js&#9;FILE&#9;file:///Users/mooz/work/complete/package.json&#10;bas&#9;FILE&#9;file:///Users/mooz/work/complete/resources/views/admin/base.blade.php&#10;filesys&#9;FILE&#9;file:///Users/mooz/work/complete/config/filesystems.php" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
@@ -335,20 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5715922">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ImportArticles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3906071">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/front/partials/_mainnav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5555556">
@@ -810,6 +807,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.94">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1450541267000" expanded="false" signature="27:470" placeholder="..." />
+            <marker date="1450541267000" expanded="true" signature="651:1576" placeholder="{...}" />
+            <marker date="1450541267000" expanded="true" signature="719:796" placeholder=" The database table used by the model. ..." />
+            <marker date="1450541267000" expanded="true" signature="839:918" placeholder=" The attributes that are mass assignable. ..." />
+            <marker date="1450541267000" expanded="true" signature="986:1076" placeholder=" The attributes excluded from the model's JSON form. ..." />
+            <marker date="1450541267000" expanded="true" signature="1187:1258" placeholder="{...}" />
+            <marker date="1450541267000" expanded="true" signature="1287:1354" placeholder="{...}" />
+            <marker date="1450541267000" expanded="true" signature="1405:1574" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83505154">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
           <folding />
         </state>
       </provider>
