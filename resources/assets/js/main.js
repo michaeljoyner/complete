@@ -7,3 +7,4 @@ if(document.querySelector('#x-token')) {
 }
 
 window.Vue = Vue;
+window.swal = require('sweetalert');
