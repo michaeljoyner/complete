@@ -37,8 +37,10 @@
                 <h2 class="title">Drop in at my office</h2>
                 <div class="divider"></div>
                 <p>Just be sure to call ahead, I'm often out.</p>
-                <p>My address is Unit 13, 3 on Crescent, Cascades, Montrose, Pietermaritzburg</p>
-                <div id="map"></div>
+                <p>My one address is 77 Villiers Drive, Clarendon, Pietermaritzburg</p>
+                <div class="map-view" id="map"></div>
+                <p>My other address is EAP Active, Village Center, Hilton Avenue, Hilton</p>
+                <div class="map-view" id="map2"></div>
             </div>
         </div>
         <div class="info-detail">
@@ -104,16 +106,29 @@
     </script>
     <script>
         var map;
+        var map2;
         function initMap() {
-            var myLat = {lat: -29.571290, lng: 30.357981}
+            var eap = {lat: -29.553544, lng: 30.301074};
+            var villiers = {lat: -29.601163, lng: 30.350555};
             map = new google.maps.Map(document.getElementById('map'), {
-                center: myLat,
+                center: villiers,
+                zoom: 15
+            });
+
+            map2 = new google.maps.Map(document.getElementById('map2'), {
+                center: eap,
                 zoom: 15
             });
 
             var marker = new google.maps.Marker({
-                position: myLat,
+                position: villiers,
                 map: map,
+                title: 'Complete Living'
+            });
+
+            var marker2 = new google.maps.Marker({
+                position: eap,
+                map: map2,
                 title: 'Complete Living'
             });
         }
