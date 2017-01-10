@@ -26,7 +26,7 @@
                 <h2 class="title">Call me, maybe?</h2>
                 <div class="divider"></div>
                 <p>Hey I just met you, and this is crazy, but here's my number, so call me maybe?</p>
-                <p>033 347 0495 / 033 347 0474/ 033 347 0469</p>
+                <p>072 670 3544 / 033 342 3540</p>
             </div>
         </div>
         <div class="info-detail">
@@ -37,9 +37,9 @@
                 <h2 class="title">Drop in at my office</h2>
                 <div class="divider"></div>
                 <p>Just be sure to call ahead, I'm often out.</p>
-                <p>My one address is 77 Villiers Drive, Clarendon, Pietermaritzburg</p>
+                <p>On Mondays, Tuesdays, Thursdays and Saturdays I can be found at 77 Villiers Drive, Clarendon, Pietermaritzburg</p>
                 <div class="map-view" id="map"></div>
-                <p>My other address is EAP Active, Village Center, Hilton Avenue, Hilton</p>
+                <p>On Wednesdays and Fridays I am at EAP Active, Village Center, Hilton Avenue, Hilton</p>
                 <div class="map-view" id="map2"></div>
             </div>
         </div>
