@@ -12,7 +12,9 @@
 @section('content')
     <header class="hero">
         @include('front.partials.navlist')
-        <div id="heart"></div>
+        <div id="logo">
+            <img src="/images/assets/logo_green.png" alt="Complete Living Logo">
+        </div>
         <h1 class="hero-title">Complete Living</h1>
         <p class="hero-tagline">Stephanie Joyner, Consulting Dietitian</p>
     </header>

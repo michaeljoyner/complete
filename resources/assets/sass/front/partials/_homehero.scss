@@ -23,7 +23,7 @@
     clear: both;
 
     @include respond-to(phone) {font-size: 50px; padding-right: 10px; padding-top: 50px;}
-    @include respond-to(smalltablet) {padding-right: 50px; padding-left: 50px;}
+    @include respond-to(smalltablet) {font-size: 50px; padding-right: 50px; padding-left: 50px;}
     @include respond-to(largetablet) {margin-top: 0; padding-top: 80px;}
   }
 
@@ -39,45 +39,19 @@
   }
 }
 
-#heart {
+#logo {
   position: absolute;
   width: 300px;
   height: 270px;
-  top: 100px;
+  top: 50px;
   left: 100px;
 
-  @include respond-to(phone) {display: none;}
-  @include respond-to(smalltablet) {display: none;}
-  @include respond-to(largetablet) {display: none;}
-  @include respond-to(desktop) {display: none;}
-}
-#heart:hover {
-  animation: heartBeat 2s 0s infinite;
-}
-#heart:before,
-#heart:after {
-  position: absolute;
-  content: "";
-  left: 150px;
-  top: 0;
-  width: 150px;
-  height: 240px;
-  background: $front_green;
-  border-radius: 150px 150px 0 0;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
-}
-#heart:after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin :100% 100%;
-}
+  img {
+    width: 100%;
+  }
 
-@keyframes heartBeat {
-O {transform: scale(1);}
-10% {transform: scale(1.1);}
-20% {transform: scale(1);}
-70% {transform: scale(1);}
-20% {transform: scale(1.1);}
-20% {transform: scale(1);}
+  @include respond-to(phone) {top: 50px; left: 0; width: 80px; height: auto;}
+  @include respond-to(smalltablet) {top: 50px; left: 0; width: 100px; height: auto;}
+  @include respond-to(largetablet) {top: 0; left: 0; width: 100px; height: auto;}
+  @include respond-to(desktop) {top: 0; left: 0; width: 100px; height: auto;}
 }
