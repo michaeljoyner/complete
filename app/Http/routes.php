@@ -22,7 +22,7 @@ Route::get('blog/posts/{slug}', 'BlogController@showPost');
 Route::get('archives/post/{id}', 'BlogController@archivedPost');
 
 Route::get('json/blog/posts', function() {
-    return \App\Blog\Post::pluck('id')->all();
+    return \App\Blog\Post::all()->pluck('id');
 });
 
 Route::get('json/blog/posts/{postId}', function($postId) {
