@@ -21,6 +21,15 @@ Route::get('blog/{categorySlug?}', 'BlogController@showBlog');
 Route::get('blog/posts/{slug}', 'BlogController@showPost');
 Route::get('archives/post/{id}', 'BlogController@archivedPost');
 
+Route::get('json/blog/posts', function() {
+    return \App\Blog\Post::pluck('id')->all();
+});
+
+Route::get('json/blog/posts/{postId}', function($postId) {
+    $post = \App\Blog\Post::find($postId);
+    return $post;
+});
+
 Route::get('admin/login', 'Auth\AuthController@getLogin');
 Route::post('admin/login', 'Auth\AuthController@postLogin');
 Route::get('admin/logout', ['middleware' => 'auth', 'uses' => 'Auth\AuthController@getLogout']);
